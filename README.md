@@ -8,13 +8,14 @@ Webpages can be added or removed using the multiple if loops.
 The conf.txt file contains port number and directory of webpages. This config file will pe parsed before server creates socket.
 
 
-char webpage[15000] = 
-        "HTTP/1.1 200 OK\r\n"
-        "Content-length: 800\r\n"
-        "Content-Type: text/html\r\n"
-        "Connection: close\r\n\r\n";
+char webpage[15000] = <br>
+     <t>"HTTP/1.1 200 OK\r\n" <br>
+     <t>"Content-length: 800\r\n" <br>
+     <t>"Content-Type: text/html\r\n" <br>
+     <t>"Connection: close\r\n\r\n"; <br>
         
 This response gets concatenated with the html code client has requested for.
 
 
-![scrnshot](https://user-images.githubusercontent.com/100684015/193165092-7cf89cc8-7ac4-408d-afdc-c4348698a9a1.jpeg)
+![scrnshot](https://user-images.githubusercontent.com/100684015/193165718-99f69a0c-503f-4e30-9454-16c4312199f6.jpeg)
+
